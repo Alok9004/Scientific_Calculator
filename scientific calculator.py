@@ -237,7 +237,7 @@ fontMenu=("",15)
 menubar=Menu(window)
 
 mode=Menu(menubar,font=fontMenu,tearoff=0)
-mode.add_checkbutton(label="Normal calculator",command=sc_click)
+mode.add_checkbutton(label="Scientific Calculator",command=sc_click)
 
 menubar.add_cascade(label="mode",menu=mode)
 
